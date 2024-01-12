@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+ 
+import { BrowserRouter } from "react-router-dom";
+import { Books } from "./component/Books";
+import { Update } from "./component/Update";
+import { Add } from "./component/Add";
+import { Home } from "./component/Home";
+import Vocab from "./component/Vocab";
+import Read from "./component/Read";
+import Hira from "./component/Hira";
+import Kata from "./component/Kata";
+  
+
+import { Routes, Route } from "react-router-dom";
+import "./style.css";
+import Results from "./component/Results";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/books" element={<Books/>} />
+          <Route path="/add" element={<Add/>} />
+          <Route path="/update/:id" element={<Update/>} />
+          <Route path="/read/:id" element={<Read/>} />
+          <Route path="/vocab/:id" element={<Vocab/>} />
+          <Route path="/hira" element={<Hira/>} />
+          <Route path="/Results" element={<Results/>} />
+          <Route path="/Kata" element={<Kata/>} />
+ 
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
