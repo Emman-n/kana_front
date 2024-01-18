@@ -24,8 +24,6 @@ const Hira = () => {
   const myList2 = [5,4,3,2,1];
   const [myArray, setMyArray] = useState([ ]);
 
-
-
   useEffect(() => {
     axios
       .get("http://localhost:3307/hira/")
