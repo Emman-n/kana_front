@@ -84,10 +84,11 @@ input {
 }
 
 .imageBack {
-  background-image: url("C:\Users\emman\Documents\REACT\client\src\images\image2.jpg"); /* Replace 'local-image.jpg' with the actual filename of your local image */
+  /* background-image: url("C:\Users\emman\Documents\REACT\client\src\images\image2.jpg");  */
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
+  background-color: blue;
  
 }
 
