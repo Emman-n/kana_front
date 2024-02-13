@@ -26,7 +26,7 @@ const Hira = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3307/hira/")
+      .get("https://kana-back.onrender.com/hira/")
       .then((res) => {
         console.log(res);
         setVocab(res.data);
@@ -84,7 +84,7 @@ const Hira = () => {
         <div className="card-container">
           {vocab.map((vocabItem, index) => (
             <div className={cardColors[index]} key={index}>
-              <h1 className="word">{vocabItem.character}</h1>
+              <h1 className="word">{vocabItem.characterr}</h1>
 
               <input
                 type="text"

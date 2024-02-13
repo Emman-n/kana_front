@@ -12,13 +12,18 @@ weather
 body parts 
 vehicles
 time
-feelings
+emotions
 
 add function that select from the database base on the option choosed 
 option select "time", then the sql request should change from that input 
 
 diferent table for each topic
 
+
+
+find out what port is given to backend 
+connect that port to front 
+dont confuse the database port with the backend port
 
 
 
