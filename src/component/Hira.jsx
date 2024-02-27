@@ -70,7 +70,7 @@ const Hira = () => {
   const goToB = () => {
     // Navigate to B component
     navigate('/Results', { state: { myArray, finalScore } });
-    //console.log(myArray);
+   // console.log(myArray);
   };
    
 

@@ -4,15 +4,19 @@ add different topics on home screen
 
 vocab, grammar, etc
 
-kara
-
+ 
 vocab topics:
-locations
-weather
-body parts 
-vehicles
-time
-emotions
+    -locations
+    -weather
+    -body parts 
+    -vehicles
+    -time
+    -emotions
+    -colors 
+    -transport
+    -actions
+    -questions
+
 
 add function that select from the database base on the option choosed 
 option select "time", then the sql request should change from that input 
@@ -31,7 +35,7 @@ dont confuse the database port with the backend port
 ***********CURRENT*************
 
 
-- HOST
+
 
 
 - Explain Problem:
@@ -42,12 +46,14 @@ dont confuse the database port with the backend port
 
 ************DOES**************
 
- - UPLOAD TO GITHUB
-    
- 
- - VOCAB CRUD***
+
+ - create fucntion that checks if input == answer then apply whats inside the if
+ - Vocab
 
 
+ - BETTER HOME PAGE
+
+  
 -RANDOMISE ORDER:
     each word has an id 
     randomise that id so that it gets a different order each time
@@ -55,6 +61,16 @@ dont confuse the database port with the backend port
 
 
 **************DONE******************
+
+
+ - copy flashcards 
+    create vocab database
+    print one word at a time
+    use same consept as the chareacters 
+
+- UPLOAD TO GITHUB
+
+- HOST
 
 
 - FIX MAIN PAGE

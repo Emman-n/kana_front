@@ -69,18 +69,15 @@ input {
 
 .card-container {
   height: 100%;
- 
   display: flex;
 }
 
 .card {
   flex: 1;
   gap: 500px;
-  width: 200px;
+  width: 600px;
   height: 200px;
   margin-right: 20px;
-
-
 }
 
 .imageBack {
@@ -107,7 +104,6 @@ input {
   margin: 4px;
   border-radius: 10px;
 }
-
 
 
 .card-div-green {
@@ -164,6 +160,56 @@ input {
 }
 
  .container-sm{
-
-  padding-top: 20px;
+  padding-top: 40px;
  }
+
+
+ 
+.card-div-vocab {
+  color: aliceblue;
+  max-width: 300px;
+  max-height: 190px;
+  background-color: rgb(79, 126, 255);
+  padding: 10px;
+  margin: 4px;
+  border-radius: 10px;
+}
+
+.card-div-vocab-green {
+
+  color: aliceblue;
+  max-width: 300px;
+  max-height: 190px;
+  background-color: rgb(64, 233, 27);
+  padding: 10px;
+  margin: 4px;
+  border-radius: 10px;
+}
+
+
+.card-div-vocab-red {
+
+  color: aliceblue;
+  max-width: 300px;
+  max-height: 190px;
+  background-color: rgb(212, 10, 3);
+  padding: 10px;
+  margin: 4px;
+  border-radius: 10px;
+}
+
+
+
+.answer-vocab {
+  align-items: baseline;
+  margin-top: 20px;
+  text-align: center;
+  color: aliceblue;
+  border-radius: 4px;
+  /* Optional: Add border radius for rounded corners */
+  width: 70%;
+  height: 40px;
+  background-color: rgb(42, 42, 42);
+}
+
+

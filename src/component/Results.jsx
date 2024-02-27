@@ -19,9 +19,14 @@ const Results = () => {
   const [vocabList, setVocabList] = useState([]);
 
  
+console.log(numbers);
+
   let table;
 
-  if (katan === 1) {
+  const nTableType=1;
+   
+
+  if (katan === nTableType) {
     table = 'kata';
     console.log("tablleee:::"+table);
   } else {
@@ -35,12 +40,13 @@ const Results = () => {
     const fetchData = async () => {
       try {
         const requests = numbers.map(async (id) => {
-          const response = await axios.get(`http://localhost:3307/${table}/${id}`);
+          const response = await axios.get(`https://kana-back.onrender.com/${table}/${id}`);
        
           return response.data[0]; // Assuming the response is an array of objects
         });
 
         const results = await Promise.all(requests);
+        console.log(results);
 
         // Set vocab list
         setVocabList(results);
@@ -67,11 +73,12 @@ const Results = () => {
           <div className="card-container">
             {vocabList.map((vocabItem, index) => (
               <div className={cardColors[index]} key={index}>
-                <h1 className="word">{vocabItem.character}</h1>
+                <h1 className="word">{vocabItem.characterr}</h1>
                 <h1 className="word">{vocabItem.answer}</h1>
 
                
               </div>
+ 
             ))}
           </div>
         </div>

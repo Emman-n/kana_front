@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-export const Home = () => {
+export const VocabMenu = () => {
   return (
     <div style={{ display: 'flex' }}>
    
@@ -28,9 +28,9 @@ export const Home = () => {
     <div className="card imageBack">
       <div className="container card-container">
         <div className="card-body  text-white">
-          <Link to="/VocabMenu">
+          <Link to="/vocab/1">
             <br></br>
-            <button type="button" className=" btn  btn-outline-light">Vocab</button>
+            <button type="button" className=" btn  btn-outline-light">COLORS</button>
           </Link>
         </div>
       </div>
@@ -39,9 +39,9 @@ export const Home = () => {
     <div className="card imageBack">
       <div className="container card-container">
         <div className="card-body text-center text-white">
-          <Link to="/hira">
+          <Link to="/">
             <br></br>
-            <button type="button" className="btn btn-outline-light">Hira</button>
+            <button type="button" className="btn btn-outline-light">Weather</button>
           </Link>
         </div>
       </div>
@@ -50,9 +50,9 @@ export const Home = () => {
     <div className="card imageBack">
       <div className="container card-container">
         <div className="card-body text-center text-white">
-          <Link to="/Kata">
+          <Link to="/">
             <br></br>
-            <button type="button" className="btn btn-outline-light">Kata</button>
+            <button type="button" className="btn btn-outline-light">Locations</button>
           </Link>
         </div>
       </div>
@@ -64,4 +64,4 @@ export const Home = () => {
   );
 };
 
-export default Home;
+export default VocabMenu;

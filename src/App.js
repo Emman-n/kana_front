@@ -8,6 +8,7 @@ import Vocab from "./component/Vocab";
 import Read from "./component/Read";
 import Hira from "./component/Hira";
 import Kata from "./component/Kata";
+import VocabMenu from "./component/VocabMenu";
   
 
 import { Routes, Route } from "react-router-dom";
@@ -29,6 +30,7 @@ function App() {
           <Route path="/hira" element={<Hira/>} />
           <Route path="/Results" element={<Results/>} />
           <Route path="/Kata" element={<Kata/>} />
+          <Route path="/VocabMenu" element={<VocabMenu/>} />
  
         </Routes>
       </BrowserRouter>
