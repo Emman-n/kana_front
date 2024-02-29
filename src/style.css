@@ -1,7 +1,11 @@
 html{
 
 height: 100%;
+ 
+ 
+justify-content: center;
 
+max-width: 100%;
 }
 
 .App {
@@ -57,7 +61,12 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
+  flex-wrap: wrap;
+
 }
+ 
+
 
 
 input {
@@ -67,10 +76,6 @@ input {
 }
 
 
-.card-container {
-  height: 100%;
-  display: flex;
-}
 
 .card {
   flex: 1;
@@ -79,6 +84,17 @@ input {
   height: 200px;
   margin-right: 20px;
 }
+
+.card-home {
+  flex: 1;
+  gap: 500px;
+  width: 500px;
+  height: 400px;
+  margin-right: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+ 
 
 .imageBack {
   /* background-image: url("C:\Users\emman\Documents\REACT\client\src\images\image2.jpg");  */
@@ -89,10 +105,6 @@ input {
  
 }
 
-.card-container {
-  flex-wrap: wrap;
-   justify-content: center;
-}
 
 
 .card-div {
@@ -213,3 +225,7 @@ input {
 }
 
 
+.home-title{
+
+  font-size: 50px;
+}

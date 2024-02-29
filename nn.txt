@@ -46,9 +46,15 @@ dont confuse the database port with the backend port
 
 ************DOES**************
 
+- next button checks if answer is correct 
+- fix default zoom
+
+ - add dynamic data base through parameter
+ - add complete page
+
 
  - create fucntion that checks if input == answer then apply whats inside the if
- - Vocab
+ - add more Vocab
 
 
  - BETTER HOME PAGE

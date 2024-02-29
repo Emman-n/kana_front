@@ -8,60 +8,47 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 export const VocabMenu = () => {
   return (
-    <div style={{ display: 'flex' }}>
-   
-
-   {/* <div className="card imageBack">
-      <div className="container card-container">
-        <div className="card-body text-center text-white">
-          <Link to="/vocab/1">
-            <br></br>
-            <button type="button" className="btn btn-secondary">START vocab</button>
-          </Link>
-        </div>
-      </div>
-    </div> */}
+    <div>
+      <h1 className="title"> Choose a vocab topic</h1>
   
+      <div className="d-flex justify-content-center align-items-center">
+        <div className="row">
+          <div className="col-md-4">
+            <div className="card card-home imageBack">
+              <div className="card-body d-flex justify-content-center align-items-center">
+                <a href="/vocab/3333333333" className="btn btn-outline-light home-title">
+                  Colors
+                </a>
+              </div>
+            </div>
+          </div>
+  
+          <div className="col-md-4">
+            <div className="card card-home imageBack">
+              <div className="card-body d-flex justify-content-center align-items-center">
+                <a href="/hira" className="btn btn-outline-light home-title">
+                  Weather
+                </a>
+              </div>
+            </div>
+          </div>
+  
+          <div className="col-md-4">
+            <div className="card card-home imageBack">
+              <div className="card-body d-flex justify-content-center align-items-center">
+                <a href="/Kata" className="btn btn-outline-light home-title">
+                  Transport
+                </a>
+              </div>
+            </div>
+          </div>
 
 
- 
-    <div className="card imageBack">
-      <div className="container card-container">
-        <div className="card-body  text-white">
-          <Link to="/vocab/1">
-            <br></br>
-            <button type="button" className=" btn  btn-outline-light">COLORS</button>
-          </Link>
         </div>
       </div>
     </div>
-  
-    <div className="card imageBack">
-      <div className="container card-container">
-        <div className="card-body text-center text-white">
-          <Link to="/">
-            <br></br>
-            <button type="button" className="btn btn-outline-light">Weather</button>
-          </Link>
-        </div>
-      </div>
-    </div>
-
-    <div className="card imageBack">
-      <div className="container card-container">
-        <div className="card-body text-center text-white">
-          <Link to="/">
-            <br></br>
-            <button type="button" className="btn btn-outline-light">Locations</button>
-          </Link>
-        </div>
-      </div>
-    </div>
-
-
-  </div>
-  
   );
-};
+  };  
 
 export default VocabMenu;
+//          <Link to="/vocab/3333333333">
