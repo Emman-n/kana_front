@@ -34,10 +34,6 @@ dont confuse the database port with the backend port
 
 ***********CURRENT*************
 
-
-
-
-
 - Explain Problem:
  
 - Solution:
@@ -46,18 +42,16 @@ dont confuse the database port with the backend port
 
 ************DOES**************
 
-- next button checks if answer is correct 
-- fix default zoom
+- add more Vocab
 
- - add dynamic data base through parameter
+- add dynamic data base through parameter
+
+- next button checks if answer is correct 
+
  - add complete page
 
 
- - create fucntion that checks if input == answer then apply whats inside the if
- - add more Vocab
 
-
- - BETTER HOME PAGE
 
   
 -RANDOMISE ORDER:
@@ -68,6 +62,12 @@ dont confuse the database port with the backend port
 
 **************DONE******************
 
+- fix characters display
+
+
+- BETTER HOME PAGE
+
+- fix default zoom
 
  - copy flashcards 
     create vocab database

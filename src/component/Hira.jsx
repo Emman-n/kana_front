@@ -78,7 +78,7 @@ const Hira = () => {
 
   return (
     <div>
-      <div className="container-xxl">
+      <div className="container-xxl ">
       <h1 className="title">HIRA HIRA</h1>
       <div className="main-container">
         <div className="card-container">

@@ -1,24 +1,20 @@
-html{
+html {
 
-height: 100%;
- 
- 
-justify-content: center;
+  height: 100%;
 
-max-width: 100%;
 }
 
 .App {
- 
-    padding: 20px;
-    text-align: center;
- 
+
+  padding: 20px;
+  text-align: center;
+
 }
 
 body {
   background-color: black;
   color: white;
-  
+
   /* Set text color to white or any other color that contrasts well with black */
 }
 
@@ -37,6 +33,7 @@ body {
   gap: 10px;
 
 }
+
 
 img {
   width: 200px;
@@ -61,11 +58,9 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
-  flex-wrap: wrap;
-
 }
- 
+
+
 
 
 
@@ -76,6 +71,17 @@ input {
 }
 
 
+.card-container {
+  height: 100%;
+
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+}
+
 
 .card {
   flex: 1;
@@ -84,6 +90,7 @@ input {
   height: 200px;
   margin-right: 20px;
 }
+
 
 .card-home {
   flex: 1;
@@ -94,15 +101,14 @@ input {
   border-radius: 20px;
   margin-top: 20px;
 }
- 
+
 
 .imageBack {
-  /* background-image: url("C:\Users\emman\Documents\REACT\client\src\images\image2.jpg");  */
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
   background-color: blue;
- 
+
 }
 
 
@@ -171,16 +177,16 @@ input {
   text-align: center;
 }
 
- .container-sm{
+.container-sm {
   padding-top: 40px;
- }
+}
 
 
- 
+
 .card-div-vocab {
   color: aliceblue;
-  max-width: 300px;
-  max-height: 190px;
+  max-width: 500px;
+  max-height: 400px;
   background-color: rgb(79, 126, 255);
   padding: 10px;
   margin: 4px;
@@ -190,8 +196,8 @@ input {
 .card-div-vocab-green {
 
   color: aliceblue;
-  max-width: 300px;
-  max-height: 190px;
+  max-width: 500px;
+  max-height: 400px;
   background-color: rgb(64, 233, 27);
   padding: 10px;
   margin: 4px;
@@ -202,8 +208,8 @@ input {
 .card-div-vocab-red {
 
   color: aliceblue;
-  max-width: 300px;
-  max-height: 190px;
+  max-width: 500px;
+  max-height: 400px;
   background-color: rgb(212, 10, 3);
   padding: 10px;
   margin: 4px;
@@ -220,12 +226,23 @@ input {
   border-radius: 4px;
   /* Optional: Add border radius for rounded corners */
   width: 70%;
-  height: 40px;
+  height: 50px;
   background-color: rgb(42, 42, 42);
+  font-size: 30px;
 }
 
 
-.home-title{
+.home-title {
 
+  font-size: 50px;
+}
+
+
+.text-size {
+
+  font-size: 30px;
+}
+
+.word {
   font-size: 50px;
 }
